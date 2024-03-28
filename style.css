@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+
+ 
+body{
+    background-color: #0a0f2a;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+
+.first-button{
+    text-align: center;
+    color: white;
+    border-style: solid;
+    border-radius: 15%;
+}
+
+
+
+
+.spotify{
+    background: cover;
+    height: 30px;
+    
+
+}
+
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    text-align: center;
+}
+
+.last{
+    background-color: black;
+    display: flex;
+    height: 30rem;
+    flex-direction: column;
+    text-align: justify;
+    position: absolute;
+    color: white;
+    
+}
+
+
+
