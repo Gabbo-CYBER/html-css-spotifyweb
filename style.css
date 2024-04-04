@@ -343,13 +343,17 @@ footer .progress-bar-dot2{
 
 /********media query********/
 
-@media screen and (max-width: 1398px x 221) {
+@media screen and (max-width: 1398px) {
   
     footer{
         height: 5rem;
     }
 
 }
+
+
+
+
 
 
 @media screen and (max-width: 780px) {
@@ -395,8 +399,8 @@ footer .progress-bar-dot2{
 
 
 
-
   @media screen and (max-width: 525px) {
+
 
     .last{
         height: 105rem;
