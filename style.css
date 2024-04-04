@@ -43,7 +43,7 @@ nav{
 .last{
     background-color: black;
     display: flex;
-    height: 51rem;
+    height: 58rem;
     flex-direction: column;
     text-align: justify;
     justify-content: flex-start;
@@ -75,8 +75,9 @@ h4{
 
 .user{
     background: black;
-    height: 25rem;
+    height: 35rem;
     align-content: end;
+    display: grid;
 }
 
 
@@ -183,7 +184,6 @@ h4{
 
 p{
     color: white;
-    margin-left: 1rem;
 }
 
 .minor{
@@ -340,4 +340,93 @@ footer .progress-bar-dot2{
 .progress-bar-back2:hover .progress-bar-front2{
     background-color: #adff2f;
 }
+
+/********media query********/
+
+@media screen and (max-width: 1398px x 221) {
+  
+    footer{
+        height: 5rem;
+    }
+
+}
+
+
+@media screen and (max-width: 780px) {
+   
+    .cards-a{
+        margin-left: 14rem;
+        text-align: justify;
+    }
+
+
+
+    .cards-b{
+        text-align: left;
+        margin-top: 2rem;
+        margin-left: 1rem;
+    }
+
+
+    .mix-a{
+        text-align: left;
+        margin-left: 3rem;
+    }
+
+
+    .cards-c{
+        text-align: left;
+        margin-top: 2rem;
+        margin-left: 1rem;
+    }
+
+
+    .last{
+        min-width: 13rem;
+        height: 68rem;
+    }
+
+
+    .user{
+        height: 31rem;
+    }
+
+  }
+
+
+
+
+  @media screen and (max-width: 525px) {
+
+    .last{
+        height: 105rem;
+    }
+
+
+    footer h2{
+        font-size: 14px;
+        margin-right: 10px;
+    }
+
+
+    .bar{
+        display: flex;
+        justify-content: center;
+        color: aliceblue;
+        list-style: none;
+        justify-content: space-evenly;
+        margin: 1rem;
+        margin-left: 1rem;
+        margin-left: 8rem;
+        font-size: 11px;
+        width: 49rem;
+    }
+
+
+
+  }
+
+
+
+
 
